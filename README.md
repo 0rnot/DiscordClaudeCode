@@ -276,6 +276,10 @@ python3 -c "import logging; logging.basicConfig(level=logging.DEBUG)"
 
 問題、質問、貢献については、[GitHub リポジトリ](https://github.com/0rnot/DiscordClaudeCode) をご覧ください。
 
+## 謝辞
+
+このプロジェクトは [https://github.com/KOBA789/human-in-the-loop](https://github.com/KOBA789/human-in-the-loop) を参考にして作成されました。
+
 ---
 
 *このプロジェクトは AI アシスタントと人間の専門知識の間の橋渡しを行い、Discord 統合を通じて協調的な問題解決と意思決定を可能にします。*
