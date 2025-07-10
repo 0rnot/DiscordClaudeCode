@@ -264,7 +264,7 @@ python3 -c "import logging; logging.basicConfig(level=logging.DEBUG)"
 
 ### ツール使用ガイドライン
 
-対話の要件に基づいて、適切なツールを使用してください：
+対話の要件に基づいて、適切なツールを使用するようにCLAUDE.mdに指示を追加してください：
 
 - **ask_human**: 人間の応答や確認が必要な場合に使用
   - 決定を要する質問
@@ -278,14 +278,14 @@ python3 -c "import logging; logging.basicConfig(level=logging.DEBUG)"
   - 完了通知
   - 例: "デプロイプロセスを開始しています..."
 
-### 判断基準
+### CLAUDE.mdの例
 
 - **作業レポート・進捗更新** → `report_to_human` を使用
 - **質問・確認・意見を求める** → `ask_human` を使用
 - **「○○します」宣言** → `report_to_human` を使用
 - **「どうしますか？」「どちらが良いですか？」質問** → `ask_human` を使用
 
-応答は Discord に送信され、記録されます。人間に進捗を知らせるために適切な間隔で `report_to_human` を使用しますが、人間の入力が必要な場合は `ask_human` で会話を終了してください。
+応答は Discord に送信され、記録されます。人間に進捗を知らせるために適切な間隔で `report_to_human` を使用しますが、人間の入力が必要な場合は `ask_human` で会話を終了してください。会話はすべて`ask_human`で終了してください。 
 
 ## サポート
 
