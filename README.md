@@ -10,7 +10,9 @@ AI アシスタントが Discord を通じて人間と対話できる Model Cont
 - **リアルタイム通信**: AI と人間の双方向通信
 - **会話管理**: スレッドの永続化と履歴追跡
 - **フォールバック システム**: AI サービスが利用できない場合の適切な縮退
-![Screenshot_Discord_20250827_1813123](https://github.com/user-attachments/assets/a01eabcf-a6dc-4b3c-a4bb-510b37bfa2d4)
+
+![Screenshot_Discord_20250827_1813123](https://github.com/user-attachments/assets/a01eabcf-a6dc-4b3c-a4bb-510b37bfa2d4)![Screenshot_20250720_2314002](https://github.com/user-attachments/assets/c92f55a8-2142-4bcf-880f-72dcad700b46)
+
 
 
 ## インストール
